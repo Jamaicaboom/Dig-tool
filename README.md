@@ -15,7 +15,7 @@ Warning
 Antiviruses will flag the compiled executable as a virus! These are FALSE POSITIVES. Everything leading up to the compiled executable is open source.
 
 Option 2: Run from Source
-Clone this repository: git clone https://github.com/iamnotbobby/dig-tool
+Clone this repository: git clone https://github.com/Jamaicaboom
 Install dependencies: pip install -r requirements.txt
 Run the application: python main.py
 If you wish to also compile from source you can run: python -m nuitka --onefile --enable-plugin=tk-inter --include-package=ahk --include-package-data=ahk --include-package-data=jinja2 --lto=yes --windows-console-mode=disable --windows-icon-from-ico=assets/icon.ico main.py
