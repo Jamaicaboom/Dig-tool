@@ -5,3 +5,7 @@ pillow
 pywin32
 ahk
 nuitka
+PyAutoIt
+PyInstaller
+pynput
+requests
